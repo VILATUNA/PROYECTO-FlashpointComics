@@ -10,7 +10,9 @@
 <jsp:include page="encabezado.jsp"></jsp:include>
 
 <h1> Pantalla Para Registrar Comics</h1>
- <a href="ListadoComic">Ver Lista de Comics</a>
+
+<a href="Loguin.jsp">Ventana de Login de Usuario</a>
+<br> <a href="ListadoComic">Ver Lista de Comics</a>
 
 <%! public String obtenerAtributo(HttpServletRequest request, String nombre){
 	String valor = (String) request.getAttribute(nombre);
