@@ -63,7 +63,7 @@
 						}
 					%>
 				</table>
-				<td><a href="registrarComic.jsp">Registrar Comic</a></td>
+				<a href="registrarComic.jsp">Registro De Comic</a>
 				</div>
 			</div>
 		</div>
