@@ -41,7 +41,7 @@
       	<td><%= l.getCmc_autor() %></td>
       	<td><%= l.getCmc_resumen() %></td>
       	<td><%= l.getCmc_idioma() %></td>
-      	<th> <img src="IMG_COMICS\<%=l.getCmc_imagen()%>.jpg"  width="100" height="150" /></th>
+      	<th> <img src="IMG_COMICS\<%=l.getCmc_imagen()%>"  width="100" height="150" /></th>
       	<td><a href="MuestraComic?id=<%=l.getId_comic()%>">Leer Comic</a></td>
       	<td><a href="EditaComic?id=<%=l.getId_comic()%>">Editar</a></td>
       	<td><a href="EliminaComic?id=<%=l.getId_comic()%>">Eliminar</a></td>

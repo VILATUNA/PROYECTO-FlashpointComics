@@ -50,7 +50,9 @@ public class ActualizaComic extends HttpServlet {
 		String comic = request.getParameter("comic");
 		System.out.println("Datos del libro a guardar: titulo: " 
 		+ titulo + " autor: " + autor + " resumen: " + resumen);
-		if(titulo.trim().equals("") || autor.trim().equals("") || edicion.trim().equals("") || idioma.trim().equals("") || numPag.trim().equals("") ) {
+		if(titulo.trim().equals("") || autor.trim().equals("") || 
+				edicion.trim().equals("") || idioma.trim().equals("") || numPag.trim().equals("")
+				|| imagen.trim().equals("") || comic.trim().equals("")) {
 			request.setAttribute("valId",id);
 			request.setAttribute("valTitulo", titulo);
 			request.setAttribute("valAutor", autor);
@@ -61,7 +63,7 @@ public class ActualizaComic extends HttpServlet {
 			request.setAttribute("valNumPag", numPag);
 			request.setAttribute("valImagen", imagen);
 			request.setAttribute("valComic", comic);
-			request.setAttribute("valError", "Titulo o autor sin llenar");
+			request.setAttribute("valError", "Datos sin llenar");
 			
 			request.getRequestDispatcher("editarComic.jsp").forward(request, response);
 

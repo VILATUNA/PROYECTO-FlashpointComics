@@ -54,7 +54,9 @@ public class RegistroComic extends HttpServlet {
 	System.out.println("Datos del libro a guardar: titulo: " 
 	+ titulo + " autor: " + autor + " resumen: " + resumen);
 	
-	if(titulo.trim().equals("") || autor.trim().equals("") || edicion.trim().equals("") || idioma.trim().equals("") || numPag.trim().equals("") ) {
+	if(titulo.trim().equals("") || autor.trim().equals("") || 
+			edicion.trim().equals("") || idioma.trim().equals("") || numPag.trim().equals("")
+			|| imagen.trim().equals("") || comic.trim().equals("")) {		
 		request.setAttribute("valTitulo", titulo);
 		request.setAttribute("valAutor", autor);
 		request.setAttribute("valResumen", resumen);

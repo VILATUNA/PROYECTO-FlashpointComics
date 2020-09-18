@@ -23,6 +23,7 @@
 
 
   <DIV ALIGN=center> 
+     <a href="ListadoComic">Mostrar Comic</a>
   <table>
 <form action = "ActualizaComic">
 <tr>
@@ -59,11 +60,13 @@
 </tr>
 <tr>
 <td> Imagen:</td>
-<td><input type="text" name="imagen" value="<%=obtenerAtributo(request,"valImagen")%>"/></td>
+<!--<td><input type="text" name="imagen" value="<%=obtenerAtributo(request,"valImagen")%>"/></td> -->
+<td><input type="file" name="imagen" value="<%=obtenerAtributo(request,"valImagen")%>"/></td>
 </tr>
 <tr>
 <td> Comic:</td>
-<td><input type="text" name="comic" value="<%=obtenerAtributo(request,"valComic")%>"/></td>
+<!-- <td><input type="text" name="comic" value="<%=obtenerAtributo(request,"valComic")%>"/></td> -->
+<td><input type="file" name="comic" value="<%=obtenerAtributo(request,"valComic")%>"/></td>
 </tr>
 <td><input type="submit" value="Editar"/></td>
 </form> 

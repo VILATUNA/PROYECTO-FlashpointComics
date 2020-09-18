@@ -43,7 +43,7 @@ public class MuestraComic extends HttpServlet {
 		request.setAttribute("comic", l);
 		
 		
-		FileInputStream ficheroInput = new FileInputStream( "C:\\Users\\ALEX\\Documents\\COMINCS_PDF\\"+l.getCmc_comic()+".pdf");
+		FileInputStream ficheroInput = new FileInputStream( "C:\\Users\\ALEX\\eclipse-workspace\\PROYECTO-FlashpointComics\\FlashpointComics\\WebContent\\COMINCS_PDF\\"+l.getCmc_comic());
 		int tamanoInput = ficheroInput.available();
 		byte[] datosPDF = new byte[tamanoInput];
 		ficheroInput.read( datosPDF, 0, tamanoInput);
