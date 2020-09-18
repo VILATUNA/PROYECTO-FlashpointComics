@@ -11,6 +11,7 @@ https://github.com/VILATUNA/PROYECTO-FlashpointComics
 2. luego debe tener el "wildfly" instalado.
 3. debe correr el proyecto usando el servidor wildfly.
 4. cabe recalcar que el proyecto fue realizado en "Eclipse"
+5. el script de la base de datos esta generada para postgres con el siguiente nombre "scriptDB"
 
 #ESTRUCTURA DE CARPETAS
 1. la carpeta "src" que es donde estan nustras clases java para el modelo y el controlador y tambien nuestra carpeta "META-INF" donde esta nuestro archivo para la percistencia y conecion con nuestro standalone.xml.
