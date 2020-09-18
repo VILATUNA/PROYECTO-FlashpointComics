@@ -15,7 +15,7 @@ https://github.com/VILATUNA/PROYECTO-FlashpointComics
 #ESTRUCTURA DE CARPETAS
 1. la carpeta "src" que es donde estan nustras clases java para el modelo y el controlador y tambien nuestra carpeta "META-INF" donde esta nuestro archivo para la percistencia y conecion con nuestro standalone.xml.
 <div>
-  <img src="https://github.com/VILATUNA/PROYECTO-FlashpointComics/tree/master/FlashpointComics/WebContent/IMG_COMICS/1.jpg  width=310 height=650    HSPACE="20">
+  <img src="https://www.muycomputer.com/wp-content/uploads/2019/01/Comics.jpg  width=310 height=650    HSPACE="20">
   <img src="https://user-images.githubusercontent.com/46785980/81254416-a0bec000-8ff0-11ea-8b65-d451d7944db1.jpg" width=310 height=650>
   <img src="https://user-images.githubusercontent.com/46785980/81254417-a1575680-8ff0-11ea-8836-39af51629dad.jpg" width=310 height=650      HSPACE="32">
   <img src="https://user-images.githubusercontent.com/46785980/81254419-a1575680-8ff0-11ea-9da2-8bdb23ea6048.jpg" width=310 height=650>
