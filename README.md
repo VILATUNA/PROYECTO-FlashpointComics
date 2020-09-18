@@ -14,20 +14,10 @@ https://github.com/VILATUNA/PROYECTO-FlashpointComics
 
 #ESTRUCTURA DE CARPETAS
 1. la carpeta "src" que es donde estan nustras clases java para el modelo y el controlador y tambien nuestra carpeta "META-INF" donde esta nuestro archivo para la percistencia y conecion con nuestro standalone.xml.
-<div>
-  <img src="https://www.muycomputer.com/wp-content/uploads/2019/01/Comics.jpg  width=310 height=650    HSPACE="20">
-  <img src="https://user-images.githubusercontent.com/46785980/81254416-a0bec000-8ff0-11ea-8b65-d451d7944db1.jpg" width=310 height=650>
-  <img src="https://user-images.githubusercontent.com/46785980/81254417-a1575680-8ff0-11ea-8836-39af51629dad.jpg" width=310 height=650      HSPACE="32">
-  <img src="https://user-images.githubusercontent.com/46785980/81254419-a1575680-8ff0-11ea-9da2-8bdb23ea6048.jpg" width=310 height=650>
-  <img src="https://user-images.githubusercontent.com/46785980/81254420-a1efed00-8ff0-11ea-9f52-d33114dd2fb5.jpg" width=310 height=650     HSPACE="32">
-  <img src="https://user-images.githubusercontent.com/46785980/81254424-a2888380-8ff0-11ea-94c8-aeb74b0053fe.jpg" width=310 height=650>
-  <img src="https://user-images.githubusercontent.com/46785980/81254427-a3211a00-8ff0-11ea-939c-d0dd6dd07656.jpg" width=310 height=650     HSPACE="32">
-  <img src="https://user-images.githubusercontent.com/46785980/81254429-a3b9b080-8ff0-11ea-85c5-8f46cbc28156.jpg" width=310 height=650>
-  <img src="https://user-images.githubusercontent.com/46785980/81254435-a4524700-8ff0-11ea-938e-d16778e5659b.jpg" width=310 height=650     HSPACE="32">
-  <img src="https://user-images.githubusercontent.com/46785980/81254414-a0262980-8ff0-11ea-9f58-37c0b9852eca.jpg" width=310 height=650>
-  <img src="https://user-images.githubusercontent.com/46785980/81254425-a2888380-8ff0-11ea-824b-21ce7c8178a0.jpg" width=310 height=650     HSPACE="32">
- </div>
+![image](https://user-images.githubusercontent.com/50031845/93644342-68c88000-f9c7-11ea-9b55-90e30d305fdd.png)
+
 2. la carpeta "WebContent" es donde tendremos nuestras JSP o vistas en codigo HTML de nuestra aplicacion.
 de igual manera tenemos nuestras imagenes, y los archivos de diseño que son usados en el HTML.
 se coloco de igual manera las capertas de "IMG_COMICS" y "COMINCS_PDF" donde tenemos las imagenes de comics y nuestros comics en formato pdf.
 
+![image](https://user-images.githubusercontent.com/50031845/93644452-a0372c80-f9c7-11ea-9332-b7fb07802fd4.png)
